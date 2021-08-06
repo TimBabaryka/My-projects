@@ -55,7 +55,7 @@ align-items: center;
     width: 50px;
     height: 50px;
     margin-right: 21px;
-    background-image: url(/museum/assets/svg/Frame.svg);
+    background-image: url(../assets/svg/Frame.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;

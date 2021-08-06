@@ -36,11 +36,6 @@ height: 50px;
 align-items: center;
 }
 
-/* .logo {
-    width: 50px;
- } */
-
- 
  .logo {
     display: flex; 
 }
@@ -80,22 +75,6 @@ align-items: center;
     text-transform: uppercase;
     color: #FFF;
 } 
-
-
-
-.louvre {
-    font-family: Forum;
-    font-size: 28px;
-    line-height: 50px;
-    letter-spacing: 5px;
-    text-transform: uppercase;  
-    color: #FFFFFF;
-}
-
-.louvre:hover {
-    color: #9D8665;
-    transition: 0.6s;
-}
 
 .navigation {
     font-family: Roboto;
@@ -138,15 +117,11 @@ align-items: center;
     background-size: 1215px 750px;
     background-position: calc(50% + 352px) 100%;
     
-
 }
 
 .container-inscription {
     height:750px;
-    padding-top: 114px;
-  
-    
-    
+    padding-top: 114px;  
 }
 
 .inscription {
@@ -196,7 +171,6 @@ padding-bottom: 76px;
     transition: 0.5s;
 
 }
-
 
 
 .container-tour {
@@ -251,11 +225,6 @@ a {
     transition:0.5s;
 }
 
-/* .line2:hover {
-
-    width:440px;
-    transition: 0.5s;
-}  */
 
 .container:hover .line2 {
     width:100%;
@@ -454,27 +423,6 @@ margin-top: 14px;
 }
 
 
-
-
-
-/* .videobigbtn {
-    position: absolute;
-    top: calc(34% - 4vh);
-    left: calc(47% - 4vw);
-    width: 220px;
-    height: 220px;
-    background-color: transparent;
-    background-image: url(assets/svg/center-btn.svg);
-} */
-
-
-
-
-
-
-
-
-
 .videotext1 {
     font-family: Forum;
     font-size: 80px;
@@ -507,24 +455,6 @@ color: #000000;
 margin-top: 59px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
      .tickets {
@@ -619,8 +549,7 @@ margin-top: 59px;
 
     }
     
-
-
+ 
 
 
 
@@ -703,7 +632,8 @@ margin-top: 59px;
     display: flex;
     justify-content: space-between;
     height: 150px;
-    width: 305px;
+    width: 400px;
+    margin-right:100px;
    
   }
 
@@ -754,7 +684,7 @@ margin-top: 59px;
 }
   
     .icon-youtube {
-      background-image: url(/museum/assets/svg/youtube.svg);
+      background-image: url(../assets/svg/youtube.svg);
       
     }
 
@@ -767,40 +697,48 @@ margin-top: 59px;
 }
 
     .icon-instagramm{
-    background-image: url(/museum/assets/svg/instagramm.svg);
+    background-image: url(../assets/svg/instagramm.svg);
 }
     .icon-instagramm:hover,
     .icon-instagramm:focus {
-    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+        filter: invert(63%) sepia(99%) saturate(454%) hue-rotate(
+            3deg
+            ) brightness(113%) contrast(102%);
     transition: 0.5s ease;
     }
 
 
     .icon-facebook {
-        background-image: url(/museum/assets/svg/facebook.svg);
+        background-image: url(../assets/svg/facebook.svg);
     }
     .icon-facebook:hover,
     .icon-facebook:focus {
-    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+        filter: invert(63%) sepia(99%) saturate(454%) hue-rotate(
+            3deg
+            ) brightness(113%) contrast(102%);
     transition: 0.5s ease;
     }
 
     .icon-twitter {
-        background-image: url(/museum/assets/svg/twitter.svg);
+        background-image: url(../assets/svg/twitter.svg);
     }
     .icon-twitter:hover,
     .icon-twitter:focus {
-    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+        filter: invert(63%) sepia(99%) saturate(454%) hue-rotate(
+            3deg
+            ) brightness(113%) contrast(102%);
     transition: 0.5s ease;
     }
 
 
     .icon-pinterest {
-        background-image: url(/museum/assets/svg/pinterest.svg);
+        background-image: url(../assets/svg/pinterest.svg);
     }
     .icon-pinterest:hover,
     .icon-pinterest:focus {
-    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+        filter: invert(63%) sepia(99%) saturate(454%) hue-rotate(
+            3deg
+            ) brightness(113%) contrast(102%);
     transition: 0.5s ease;
     }
 
@@ -809,28 +747,3 @@ margin-top: 59px;
 
 
 
-
-
-
-   /* .circlewrapper {
-    
- 
-      
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }          */
-/* 
-   .circlewrapper:hover {
-      background: #9D8665;
-      transition: 0.5s;
-      
-    
-  }  */
-  
-  .
-  
-  /* .icongold{
-    filter: invert(52%) sepia(32%) saturate(345%) hue-rotate(356deg) brightness(97%) contrast(93%);
-  } */
-  
